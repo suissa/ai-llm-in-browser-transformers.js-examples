@@ -6,7 +6,8 @@
   "scripts": {
     "update": "node .scripts/update.js",
     "build": "node .scripts/build.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [
     "transformers",
